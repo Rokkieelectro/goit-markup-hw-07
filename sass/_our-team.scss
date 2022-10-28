@@ -1,63 +1,62 @@
-.our-team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--main-text-color);
-margin-bottom: 50px;
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-bottom: 50px;
 }
 
-.team-names {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--main-text-color);
-
-margin-bottom: 10px;
+.persons {
+  display: flex;
+  gap: 30px;
 }
 
-.team-positions {
-font-weight: 400;
-font-size: 16px;
-line-height:1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--add-text-color);
+.persons__names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 
+  margin-bottom: 10px;
 }
 
-.flex-team {
-display: flex;
-gap: 30px;
+.persons__positions {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--add-text-color);
 }
-
 
 .team {
-    background: #F5F4FA;
-    padding-bottom: 94px;
+  background: #f5f4fa;
+  padding-bottom: 94px;
 }
 
-.team-card-sign{
-padding-bottom: 16px;
-padding-top: 30px;
+.persons__card-sign {
+  padding-bottom: 16px;
+  padding-top: 30px;
 }
 
-.team-card {
-    background: #FFFFFF;
-    display: block;
-    width:270px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.persons__card {
+  background: #ffffff;
+  display: block;
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-soc {
+.social-wrap {
   padding-bottom: 30px;
 }
 
-.team-soc-list {
+.social__list {
   list-style: none;
   display: flex;
   align-items: center;
@@ -65,11 +64,11 @@ border-radius: 0px 0px 4px 4px;
   padding-left: 0;
 }
 
-.team-soc-item:not(:last-child)  { 
-margin-right: 10px;
+.social__item:not(:last-child) {
+  margin-right: 10px;
 }
 
-.team-soc-link {
+.social__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -77,15 +76,14 @@ margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;  
-  transition-property:background-color, fill;
+  fill: #afb1b8;
+  transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
-.team-soc-item :hover,
-.team-soc-item :focus {
+.social__item :hover,
+.social__item :focus {
   background-color: var(--hover-color);
-  fill:#FFFFFF ;
+  fill: #ffffff;
 }
-
